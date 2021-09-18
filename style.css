@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+.container{
+    /*
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 40rem; */
+
+    /* height: 20rem; */
+    width: 25rem;
+    text-align: center;
+}
+.container h3, .joke{
+    padding:20px;
+    /* background-color:chartreuse; */
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+}
+.container {
+    padding:20px;
+    background-color: wheat;
+    font-size: l;
+    box-shadow: 0 0 15px;
+}
+.container button{
+    margin: 20px;
+    padding: 5px;
+    background-color: yellowgreen;
+}
